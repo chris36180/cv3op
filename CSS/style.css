@@ -4,26 +4,22 @@ body {
 	clear:both;
 }
 body{
-    Background-color: silver;
+Background-color: silver;
 Padding:0;
 Margin:0;
-Border-left:150px black;
+Border-left:150px solid gray;
 Position: absolute;
 Border-radius:15px;
 }
-header h1 { 
+header,h1 { 
     color:#79a5a8;
    text-align:center;
-   
-  
 }
 p{
      color:black;
    text-align:center;
 }
-h1{
-    color:#8C7672;
-}
+
 
 
 td{
@@ -37,15 +33,15 @@ td{
 
 a{
 
-top: 10px; 
-left:10px;
+top: 1%; 
+left:1%;
 }
 main{
     text-align:left;
-  ;
+  
 }
 
-@font-face { /* DÃ©finition d'une nouvelle police nommÃ©e LearningCurveProRegular */
+@font-face {
     font-family: 'GoodDog';
     src: url("GoodDog.eot");
     src: url("GoodDog-webfont.eot?#iefix") format('embedded-opentype'),
@@ -54,35 +50,31 @@ main{
          url('GoodDog-webfont.svg#GoodDog-webfont') format('svg');
 }
 
-h1 /* Utilisation de la police qu'on vient de dÃ©finir sur les titres */
-{
+h1 {
     font-family: 'GoodDog', Arial, serif;
   
 }
-.liseret, section,
-{
+.liseret, section{
+
     display: inline;
     vertical-align: top;
 }
 .liseret
 {
-    float: left;
-    width: 100px;
-    height: 100%;
-    background: black;
+    
+    width: 0%;
+    height: 0%;
+    
     margin : 0%;
-    margin-right : 40px;
+    margin-right : 0%;
     padding : 0%;
 }
      section
 {
     display: inline-block;
     vertical-align: top;
-    border: 2px #4c2900 solid;
-    border-radius: 10px;
-    background-color: rgba(76,41,0,0.2);
-    padding: 5px 25px 5px 5px;
-    margin: 5px;
-    box-shadow: 5px 5px 5px #4c2900;
+    padding: 0.5% 0.5% 0.5% 0.5%;
+   
+ 
 }
  
