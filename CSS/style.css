@@ -1,0 +1,81 @@
+body {
+	background-image: url("../images/image2.png");
+	background-attachment:fixed;
+	clear:both;
+}
+header h1 { 
+    color:black;
+   text-align:center;
+   
+  
+}
+p{
+     color:black;
+   text-align:center;
+}
+h1{
+    color:#8C7672;
+}
+
+
+td{
+	padding-top:4px;
+	text-align:justify;
+}
+.en_tete{
+	display:inline-block;
+	
+}
+
+a{
+  text-align:center;border: 3px blue inset;
+box-shadow: 6px 6px 0px black  ; 
+top: 10px; 
+left:10px;
+}
+main{
+    text-align:left;
+  ;
+}
+
+@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+    font-family: 'LearningCurveProRegular';
+    src: url("LearningCurveDashed_OT-webfont.eot");
+    src: url("LearningCurveDashed_OT-webfont.eot?#iefix") format('embedded-opentype'),
+         url('LearningCurveDashed_OT-webfont.woff') format('woff'),
+         url('LearningCurveDashed_OT-webfont.ttf') format('truetype'),
+         url('LearningCurveDashed_OT-webfont.svg#LearningCurveProRegular') format('svg');
+}
+
+h1 /* Utilisation de la police qu'on vient de définir sur les titres */
+{
+    font-family: 'LearningCurveProRegular', Arial, serif;
+  
+}
+.liseret, section,
+{
+    display: inline;
+    vertical-align: top;
+}
+.liseret
+{
+    float: left;
+    width: 100px;
+    height: 100%;
+    background: black;
+    margin : 0%;
+    margin-right : 40px;
+    padding : 0%;
+}
+     section
+{
+    display: inline-block;
+    vertical-align: top;
+    border: 2px #4c2900 solid;
+    border-radius: 10px;
+    background-color: rgba(76,41,0,0.2);
+    padding: 5px 25px 5px 5px;
+    margin: 5px;
+    box-shadow: 5px 5px 5px #4c2900;
+}
+ 
