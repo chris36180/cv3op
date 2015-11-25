@@ -3,6 +3,14 @@ body {
 	background-attachment:fixed;
 	clear:both;
 }
+body{
+    Background-color: silver;
+Padding:0;
+Margin:0;
+Border-left:150px black;
+Position: absolute;
+Border-radius:15px;
+}
 header h1 { 
     color:#79a5a8;
    text-align:center;
@@ -37,16 +45,16 @@ main{
   ;
 }
 
-@font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
+@font-face { /* DÃ©finition d'une nouvelle police nommÃ©e LearningCurveProRegular */
     font-family: 'GoodDog';
     src: url("GoodDog.eot");
     src: url("GoodDog-webfont.eot?#iefix") format('embedded-opentype'),
          url('GoodDog-webfont.woff') format('woff'),
          url('GoodDog-webfont.ttf') format('truetype'),
-         url('GoodDog-webfont.svg#LearningCurveProRegular') format('svg');
+         url('GoodDog-webfont.svg#GoodDog-webfont') format('svg');
 }
 
-h1 /* Utilisation de la police qu'on vient de définir sur les titres */
+h1 /* Utilisation de la police qu'on vient de dÃ©finir sur les titres */
 {
     font-family: 'GoodDog', Arial, serif;
   
