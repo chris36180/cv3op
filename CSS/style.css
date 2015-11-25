@@ -4,7 +4,7 @@ body {
 	clear:both;
 }
 header h1 { 
-    color:black;
+    color:#79a5a8;
    text-align:center;
    
   
@@ -28,8 +28,7 @@ td{
 }
 
 a{
-  text-align:center;border: 3px blue inset;
-box-shadow: 6px 6px 0px black  ; 
+
 top: 10px; 
 left:10px;
 }
@@ -39,17 +38,17 @@ main{
 }
 
 @font-face { /* Définition d'une nouvelle police nommée LearningCurveProRegular */
-    font-family: 'LearningCurveProRegular';
-    src: url("LearningCurveDashed_OT-webfont.eot");
-    src: url("LearningCurveDashed_OT-webfont.eot?#iefix") format('embedded-opentype'),
-         url('LearningCurveDashed_OT-webfont.woff') format('woff'),
-         url('LearningCurveDashed_OT-webfont.ttf') format('truetype'),
-         url('LearningCurveDashed_OT-webfont.svg#LearningCurveProRegular') format('svg');
+    font-family: 'GoodDog';
+    src: url("GoodDog.eot");
+    src: url("GoodDog-webfont.eot?#iefix") format('embedded-opentype'),
+         url('GoodDog-webfont.woff') format('woff'),
+         url('GoodDog-webfont.ttf') format('truetype'),
+         url('GoodDog-webfont.svg#LearningCurveProRegular') format('svg');
 }
 
 h1 /* Utilisation de la police qu'on vient de définir sur les titres */
 {
-    font-family: 'LearningCurveProRegular', Arial, serif;
+    font-family: 'GoodDog', Arial, serif;
   
 }
 .liseret, section,
