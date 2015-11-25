@@ -3,14 +3,7 @@ body {
 	background-attachment:fixed;
 	clear:both;
 }
-body{
-Background-color: silver;
-Padding:1;
-Margin:10;
-Border-left:150px solid gray;
-Position: absolute;
-Border-radius:15px;
-}
+
 header,h1 { 
     color:#79a5a8;
    text-align:center;
@@ -59,16 +52,19 @@ h1 {
     display: inline;
     vertical-align: top;
 }
-.liseret{
-    
-    width: 0%;
-    height: 0%;
-    margin : 0%;
-    margin-right : 0%;
-    padding : 0%;
-}
+
      section{
     display: inline-block;
     vertical-align: top;
+    width:19%;
+    margin-left:10%;
 }
+ .liseret{
+     position:absolute;
+     width:55px;
+     height:90%;
+     background-color:gray;
+     border-radius:10px;
+     padding:10px;
+ }
  
